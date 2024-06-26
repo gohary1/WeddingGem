@@ -68,7 +68,7 @@ The MVC dashboard is designed for admins and vendors to manage products and bids
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/WeddingGem.git
+    git clone https://github.com/gohary1/WeddingGem.git
     ```
 
 2. Navigate to the project directory:
@@ -92,31 +92,6 @@ The MVC dashboard is designed for admins and vendors to manage products and bids
     ```bash
     dotnet run
     ```
-
-## Usage
-
-### API Endpoints
-
-- **Add Products**: `POST /api/products`
-- **Get All Products**: `GET /api/products`
-- **Authentication**: `POST /api/auth/login`
-- **Payments**: `POST /api/payments`
-- **Bidding**: `POST /api/bids`
-
-### Admin Dashboard
-
-1. Navigate to the admin dashboard URL.
-2. Login with admin credentials.
-3. Manage products, users, and bids.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
 
 ## License
 
