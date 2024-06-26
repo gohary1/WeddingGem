@@ -6,7 +6,11 @@ WeddingGem is a comprehensive e-commerce platform specializing in wedding-relate
 2. **WeddingGem Dashboard** - An MVC-based dashboard for admin and vendor management.
 
 ## Features
-![WeddingGem](https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB" alt="WeddingGem 1" style="width: 300px; height: auto;">
+  <img src="https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB" alt="WeddingGem 2" style="width: 300px; height: auto;">
+  <img src="https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB" alt="WeddingGem 3" style="width: 300px; height: auto;">
+</div>
 
 
 ### WeddingGem API
