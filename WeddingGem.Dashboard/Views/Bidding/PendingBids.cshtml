@@ -1,0 +1,84 @@
+﻿@model IEnumerable<BidsViewOnly>
+@{
+    ViewData["Title"] = "PendingBids";
+}
+<link href="~/css/bid.css" rel="stylesheet" />
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<div class="container p-3">
+<h3>PendingBids</h3>
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(role => role.Id)</th>
+                <th>@Html.DisplayNameFor(role => role.Price)</th>
+                <th>@Html.DisplayNameFor(role => role.Needs)</th>
+                <th>@Html.DisplayNameFor(role => role.Status)</th>
+                <th>@Html.DisplayNameFor(role => role.DateTime)</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Id</td>
+                    <td>@role.Price</td>
+                    <td>
+                        <div class="d-flex flex-column justify-content-center">
+                            @foreach (var roles in role.Needs)
+                            {
+                                <p class="m-0">@roles</p>
+                            }
+                        </div>
+                    </td>
+                    <td class="text-warning">@role.Status</td>
+                    <td>@role.DateTime</td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                      <td><button class="btn btn-danger delete" data-id="@role.Id" data-username="@role.Id" data-delete-url="/Bidding/BidDelete">Delete</button></td>
+                    }
+                    @if (User.IsInRole("Vendor"))
+                    {
+                        <td><button class="btn btn-success accept" data-id="@role.Id" data-username="@role.Id" data-delete-url="/Bidding/AcceptBid">Accept Bid</button></td>
+                        <div class="position-fixed top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center popUp d-none">
+                            <div class="w-50 h-50 d-flex flex-column justify-content-evenly align-items-center popinner">
+                                <h4 id="delete-message"></h4>
+                                    <div class="botMain">
+                                    <a class="btn btn-success px-5 deleteConfirm bot" id="confirm-delete">Accept</a>
+                                    <button class="btn btn-secondary px-5 close bot">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                     </tr>
+            }
+            
+        </tbody>
+    </table>
+    
+        <div class="position-fixed top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center popUp d-none">
+            <div class="w-50 h-50 d-flex flex-column justify-content-evenly align-items-center popinner">
+                <h4 id="delete-message"></h4>
+                <div class="botMain">
+                    <a class="btn btn-danger px-5 deleteConfirm" id="confirm-delete">Delete</a>
+                    <button class="btn btn-secondary px-5 close">Close</button>
+                </div>
+            </div>
+        </div>
+}
+
+else
+{
+    <div class="mt-5 d-flex justify-content-center">
+        <h3>There is Pendings Bids yet</h3>
+    </div>
+}
+</div>
+<script src="~/js/Serv/JavaScriptW.js"></script>
+<script src="~/js/Serv/bidJs.js"></script>
+@section scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,78 @@
+﻿@model CreateUserModel
+@{
+    ViewData["Title"] = "create";
+}
+<link href="~/css/register.css" rel="stylesheet" />
+<div class="content container p-3">
+<div class="title h3 text-info">Registration</div>
+    <form method="post" asp-action="Create">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">User Name</span>
+                <input type="text" placeholder="Enter your name" asp-for="UserName" required>
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your Email" asp-for="Email" required>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your Phone Number" asp-for="PhoneNumber" required>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Password</span>
+                <input type="text" placeholder="Enter your Password" asp-for="Password" required>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="text" placeholder="Confirm Password" asp-for="ConfirmPassword" required>
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Birthday</span>
+                <input type="date" placeholder="Enter Your Birthday Date" asp-for="Birthday" required> 
+                <span asp-validation-for="Birthday" class="text-danger"></span>
+            </div>
+            <div class="input-box">
+                <span class="details">Address</span>
+                <input type="text" placeholder="Enter Your Address" asp-for="Address" required> 
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+        @for (int i = 0; i < Model.AllRoles.Count; i++)
+        {
+            <div class="checkbox-wrapper-42">
+                <input id="@i" type="checkbox" name="RoleName" value="@Model.AllRoles[i].Name" />
+                <label class="cbx" for="@i"></label>
+                <label class="lbl" for="@i">@Model.AllRoles[i].Name</label>
+            </div>
+        }
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="middle">
+         <h1 class="text-black">Choose Vendor's Plan</h1>
+        @for (int i = 0; i < Model.AllPacks.Count; i++)
+        {
+            <label>
+                    <input type="radio" name="packName" value="@Model.AllPacks[i].PlanName" />
+                <div class="front-end box m-2">
+                        <p class="q">@Model.AllPacks[i].PlanName</p><br />
+                        <p class="q">@Model.AllPacks[i].Price EGP</p>
+                </div>
+            </label>
+        
+        }
+        </div>
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</div>
+
+
+
+
+

@@ -1,0 +1,38 @@
+﻿@model HotelsUpdate
+@{
+    ViewData["Title"] = "create";
+}
+    <div class="container p-3">
+    <h3 class="text-center">Create A new Hotel</h3>
+    <div class="mt-5">
+        <form method="post"  asp-action="createHotel" enctype="multipart/form-data">
+            <label asp-for="Name">Hall Name:</label>
+            <input type="text" class="form-control my-2" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <label asp-for="Price">Price</label>
+            <input class="form-control my-2" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+
+            <label asp-for="Location">Location</label>
+            <input class="form-control my-2" asp-for="Location" />
+            <span asp-validation-for="Location" class="text-danger"></span>
+
+                <label asp-for="ImgUrl">Select Best Image</label>
+                <input asp-for="ImgUrl" type="file" class="form-control" />
+                <span asp-validation-for="ImgUrl" class="text-danger"></span>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="submit" class="btn btn-success px-5 mx-2">Create</button>
+                <a asp-action="HotelsIndex" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

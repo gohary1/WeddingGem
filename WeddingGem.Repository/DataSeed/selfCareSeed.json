@@ -1,0 +1,162 @@
+[
+  {
+      "Name": "Relaxing Massage",
+      "Price": 2000,
+      "Description": "Indulge in a soothing massage to relax your body and mind.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/selfCare/image(1).jpg",
+      "Type": "Massage"
+  },
+  {
+      "Name": "Facial Treatment",
+      "Price": 2200,
+      "Description": "Revitalize your skin with a rejuvenating facial treatment.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(2).jpg",
+      "Type": "Skin Care"
+  },
+  {
+      "Name": "Aromatherapy Session",
+      "Price": 2400,
+      "Description": "Immerse yourself in the therapeutic benefits of aromatherapy.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/selfCare/image(3).jpg",
+      "Type": "Aromatherapy"
+  },
+  {
+      "Name": "Hot Stone Massage",
+      "Price": 2200,
+      "Description": "Experience deep relaxation with a hot stone massage therapy.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(4).jpg",
+      "Type": "Massage"
+  },
+  {
+      "Name": "Yoga Retreat",
+      "Price": 2500,
+      "Description": "Rejuvenate your body and mind with a yoga retreat in a serene environment.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/selfCare/image(5).jpg",
+      "Type": "Yoga"
+  },
+  {
+      "Name": "Detox Cleansing",
+      "Price": 2300,
+      "Description": "Cleanse your body from toxins with a detoxifying cleansing session.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(6).jpg",
+      "Type": "Detox"
+  },
+  {
+      "Name": "Mud Bath Therapy",
+      "Price": 2400,
+      "Description": "Rejuvenate your skin and relax your muscles with a luxurious mud bath therapy.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/selfCare/image(7).jpg",
+      "Type": "Spa"
+  },
+  {
+      "Name": "Reflexology Treatment",
+      "Price": 2200,
+      "Description": "Restore balance and harmony to your body with a reflexology treatment.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(8).jpg",
+      "Type": "Reflexology"
+  },
+  {
+      "Name": "Steam Room Session",
+      "Price": 2100,
+      "Description": "Relax and detoxify in a soothing steam room session.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/selfCare/image(9).jpg",
+      "Type": "Steam"
+  },
+  {
+      "Name": "Deep Tissue Massage",
+      "Price": 2300,
+      "Description": "Release tension and knots with a therapeutic deep tissue massage.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(10).jpg",
+      "Type": "Massage"
+  },
+  {
+      "Name": "Meditation Workshop",
+      "Price": 2100,
+      "Description": "Learn the art of meditation and mindfulness in a guided workshop.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/selfCare/image(11).jpg",
+      "Type": "Meditation"
+  },
+  {
+      "Name": "Body Scrub Treatment",
+      "Price": 2200,
+      "Description": "Exfoliate and rejuvenate your skin with a revitalizing body scrub treatment.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(12).jpg",
+      "Type": "Skin Care"
+  },
+  {
+      "Name": "Sauna Therapy",
+      "Price": 2100,
+      "Description": "Sweat out toxins and relax your muscles in a therapeutic sauna session.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/selfCare/image(13).jpg",
+      "Type": "Sauna"
+  },
+  {
+      "Name": "Pedicure and Manicure",
+      "Price": 2200,
+      "Description": "Pamper yourself with a luxurious pedicure and manicure session.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(14).jpg",
+      "Type": "Nail Care"
+  },
+  {
+      "Name": "Thai Massage",
+      "Price": 2400,
+      "Description": "Experience the ancient healing art of Thai massage for relaxation and rejuvenation.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/selfCare/image(15).jpg",
+      "Type": "Massage"
+  },
+  {
+      "Name": "Hair Spa Treatment",
+      "Price": 2300,
+      "Description": "Nourish and revitalize your hair with a rejuvenating hair spa treatment.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(16).jpg",
+      "Type": "Hair Care"
+  },
+  {
+      "Name": "Hydrotherapy Session",
+      "Price": 2500,
+      "Description": "Immerse yourself in healing waters and experience the benefits of hydrotherapy.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/selfCare/image(17).jpg",
+      "Type": "Hydrotherapy"
+  },
+  {
+      "Name": "Pilates Class",
+      "Price": 2100,
+      "Description": "Strengthen and tone your body with a Pilates class led by expert instructors.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/selfCare/image(18).jpg",
+      "Type": "Pilates"
+  },
+  {
+      "Name": "Acupuncture Therapy",
+      "Price": 2300,
+      "Description": "Restore balance and alleviate pain with traditional acupuncture therapy.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/selfCare/image(19).jpg",
+      "Type": "Acupuncture"
+  },
+  {
+      "Name": "Cryotherapy Session",
+      "Price": 2400,
+      "Description": "Experience the benefits of cryotherapy for muscle recovery and overall wellness.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/selfCare/image(20).jpg",
+      "Type": "Cryotherapy"
+  }
+]

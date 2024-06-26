@@ -1,0 +1,55 @@
+﻿@model SelfCareUpdate
+@{
+    ViewData["Title"] = "create";
+}
+    <div class="container p-3">
+    <h3 class="text-center">Create A new Car</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="createSelf" enctype="multipart/form-data">
+            <label asp-for="Name">Name:</label>
+            <input type="text" class="form-control my-2" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <label asp-for="Price">Price</label>
+            <input class="form-control my-2" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span> 
+            
+            <div class="d-flex justify-content-start align-items-center my-4">
+                <label asp-for="Type" class="h4 me-3">Edit the Selfcare Type:</label>
+                <select asp-for="Type" class="btn btn-secondary ms-2">
+                    <option value="Massage">Massage</option>
+                    <option value="SkinCare">SkinCare</option>
+                    <option value="Yoga">Yoga</option>
+                    <option value="Detox">Detox</option>
+                    <option value="Spa">Spa</option>
+                    <option value="Steam">Steam</option>
+                    <option value="Meditation">Meditation</option>
+                    <option value="Sauna">Sauna</option>
+                    <option value="NailCare">NailCare</option>
+                    <option value="Hydrotherapy">Hydrotherapy</option>
+                    <option value="Armotherapy">Armotherapy</option>
+                </select>
+            </div>
+
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+
+            <label asp-for="ImgUrl">Select Best Image</label>
+            <input asp-for="ImgUrl" type="file" class="form-control" />
+            <span asp-validation-for="ImgUrl" class="text-danger"></span>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="submit" class="btn btn-success px-5 mx-2">Create</button>
+                <a asp-action="SelfIndex" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+

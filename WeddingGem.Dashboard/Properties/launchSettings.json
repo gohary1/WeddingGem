@@ -1,0 +1,29 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24466",
+      "sslPort": 44323
+    }
+  },
+  "profiles": {
+    "WeddingGem.Dashboard": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "hotReloadProfile": "aspnetcore",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7269;http://localhost:5052",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

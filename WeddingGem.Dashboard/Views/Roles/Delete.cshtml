@@ -1,0 +1,18 @@
+﻿@model RoleFormViewDeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="container p-3">
+<h3 class="text-center">Are you sure want to delete?</h3>
+<div class="mt-5">
+    <form method="post" asp-action="Delete" asp-route-id="@Model.id">
+        <label asp-for="Name">Role:</label>
+    <input class="form-control my-2" asp-for="Name" readonly>
+    <div class="d-flex justify-content-center mt-4">
+        <button type="submit" class="btn btn-danger px-5 mx-2">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary px-2 mx-2"> Back To List</a>
+        </div>
+    </form>
+    </div>
+</div>
+

@@ -1,0 +1,42 @@
+﻿@model CarsUpdate
+@{
+    ViewData["Title"] = "CarUpdate";
+}
+
+<div class="container p-3">
+    <h3 class="text-center">You're now Editing Car @Model.Name</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="CarUpdate" asp-route-id="@Model.id" enctype="multipart/form-data">
+            <label asp-for="Name">Name:</label>
+            <input type="text" class="form-control my-2" asp-for="Name"/>
+
+            <label asp-for="Price">Price</label>
+            <input class="form-control my-2" asp-for="Price" />
+
+            <label asp-for="Capacity">Capacity</label>
+            <input class="form-control my-2" asp-for="Capacity" />
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            
+            <label asp-for="Color">Color</label>
+            <input class="form-control my-2" asp-for="Color" />
+
+            <label asp-for="Model">Model</label>
+            <input  class="form-control my-2" asp-for="Model" />
+
+            <div class="d-flex flex-column align-items-start justify-content-around">
+                <label asp-for="ImgUrl" class="mb-3">Select A new Image?</label>
+                <input asp-for="ImgUrl" type="file" class="form-control mb-3" />
+                <div class="w-25"><img src="@Model.imgName" class="w-75" /></div>
+                <input hidden asp-for="imgName" />
+            </div>
+
+            <div class="d-flex justify-content-center mt-4">
+                <button type="submit" class="btn btn-warning px-5 mx-2">Update</button>
+                <a asp-action="CarsIndex" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+

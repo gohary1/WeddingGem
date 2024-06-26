@@ -1,0 +1,19 @@
+﻿@model RoleFormViewDeleteModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container p-3">
+    <h3 class="text-center">You're now Editing role @Model.Name</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="Edit" asp-route-id="@Model.id">
+            <label asp-for="Name">Role:</label>
+            <input class="form-control my-2" asp-for="Name">
+            <div class="d-flex justify-content-center mt-4">
+                <button type="submit" class="btn btn-warning px-5 mx-2">Update</button>
+                <a asp-action="Index" class="btn btn-secondary px-2 mx-2"> Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+

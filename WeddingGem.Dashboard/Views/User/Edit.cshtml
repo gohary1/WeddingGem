@@ -1,0 +1,41 @@
+﻿@model UserRoleView
+@{
+    ViewData["Title"] = "Edit";
+}
+<link href="~/css/register.css" rel="stylesheet" />
+<div class="container p-3">
+    <h3 class="text-center">You're now Editing @Model.UserName</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="Edit" asp-route-id="@Model.id">
+            <label asp-for="UserName">UserName</label>
+            <input class="form-control my-2" asp-for="UserName" readonly />
+            <h3 class="my-3">Manage the Roles</h3>
+                @for (int i = 0; i < Model.Roles.Count; i++)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" asp-for="Roles[i].IsSelected" />
+                        <input type="hidden" asp-for="Roles[i].Name" />
+                        <label class="form-check-label">@Model.Roles[i].Name</label>
+                    </div>
+                }
+            <div class="middle">
+                <h1 class="text-black">Choose Vendor's Plan</h1>
+                @for (int i = 0; i < Model.Packages.Count; i++)
+                {
+                    <input type="hidden" asp-for="Packages[i].PlanName" />
+                    <label>
+                        <input type="radio" name="PlanName" value="@Model.Packages[i].PlanName" @(Model.PlanName == Model.Packages[i].PlanName ? "checked" : "") />
+                        <div class="front-end box ,-2">
+                            <p class="q">@Model.Packages[i].PlanName</p><br />
+                            <p class="q">@Model.Packages[i].Price EGP</p>
+                        </div>
+                    </label>
+                }
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button type="submit" class="btn btn-warning px-5 mx-2">Update</button>
+                <a asp-action="Index" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+﻿@model RoleFormViewModel
+@{
+    ViewData["Title"] = "create";
+}
+<div class="container p-3">
+<h3 class="text-center">Add a new Role</h3>
+
+<div class="mt-5">
+    <form method="post" asp-action="create">
+        <label asp-for="Name" class="fw-bold">Name</label>
+        <input class="form-control" asp-for="Name"/>
+        <div class="d-flex justify-content-center mt-4">
+            <button type="submit" class="btn btn-outline-success px-5 mx-2">Add</button>
+            <a asp-action="Index" class="btn btn-secondary px-2 mx-2"> Back To List</a>
+        </div>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </form>
+</div>
+</div>
+@section Scripts
+{
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script> 
+}

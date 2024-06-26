@@ -1,0 +1,129 @@
+﻿/* Base styles */
+body .main {
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.77), rgba(0, 0, 0, 0.334)), url(headerPhoto.jpg) !important;
+    background-position: bottom !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    text-align: center; /* Center text alignment for all screen sizes */
+}
+
+.btn-shine {
+    padding: 12px 48px;
+    color: black;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0, #2193b0);
+    background-size: 1000% auto;
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.main h3 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.main h2 {
+    color: #ffffff;
+    font-size: 4rem;
+}
+.imgg {
+    width: 50%;
+    height: auto;
+}
+
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0;
+    }
+}
+
+/* Responsive styles */
+
+/* Tablets and large phones (portrait) */
+@media (max-width: 992px) {
+    .main {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+        .main h2 {
+            font-size: 3rem; /* Reduce font size for h2 */
+        }
+
+        .main h3 {
+            font-size: 2.5rem; /* Reduce font size for h3 */
+        }
+    .imgg {
+        width: 100% !important;
+        height: auto;
+    }
+    .btn-shine {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+}
+
+/* Small tablets and large phones (landscape) */
+@media (max-width: 650px) {
+    .main {
+        padding: 0 10px; /* Add padding for better spacing */
+    }
+
+        /*.main h2 {
+            font-size: 2.5rem;*/ /* Further reduce font size */
+        /*}
+
+        .main h3 {
+            font-size: 2rem;*/ /* Further reduce font size */
+        /*}*/
+
+    .btn-shine {
+        font-size: 1.25rem; /* Adjust font size */
+        padding: 10px 32px; /* Adjust padding */
+    }
+    .container h3 {
+        font-size: 1.5rem; /* Reduce font size for section heading */
+    }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+    .main {
+        padding: 0 5px; /* Adjust padding */
+    }
+
+        .main h2 {
+            font-size: 2rem; /* Further reduce font size */
+        }
+
+        .main h3 {
+            font-size: 1.7rem; /* Further reduce font size */
+        }
+   
+    .btn-shine {
+        font-size: 1rem; /* Adjust font size */
+        padding: 8px 24px; /* Adjust padding */
+    }
+    .container h3 {
+        font-size: 1.25rem; /* Further reduce section heading font size */
+    }
+}

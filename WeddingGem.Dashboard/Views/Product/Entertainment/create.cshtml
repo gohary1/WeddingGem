@@ -1,0 +1,42 @@
+﻿@model EntertainmentUpdate
+@{
+    ViewData["Title"] = "create";
+}
+    <div class="container p-3">
+    <h3 class="text-center">Create A new Entertainment</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="createEntertainment" enctype="multipart/form-data">
+            <label asp-for="Name">Entertainment Name:</label>
+            <input type="text" class="form-control my-2" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <label asp-for="Price">Price</label>
+            <input class="form-control my-2" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+
+            <div class="d-flex justify-content-start align-items-center my-4">
+                <label asp-for="BandType" class="h4 me-3">Edit the BandType:</label>
+                <select asp-for="BandType" class="btn btn-secondary ms-2">
+                    <option value="LiveBand">Live Band</option>
+                    <option value="Dancers">Dancers</option>
+                    <option value="DJ">DJ</option>
+                </select>
+            </div>
+
+                <label asp-for="ImgUrl">Select Best Image</label>
+                <input asp-for="ImgUrl" type="file" class="form-control" />
+                <span asp-validation-for="ImgUrl" class="text-danger"></span>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="submit" class="btn btn-success px-5 mx-2">Create</button>
+                <a asp-action="EntertainmentsIndex" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+

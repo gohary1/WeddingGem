@@ -1,0 +1,21 @@
+[
+  {
+    "PlanName": "Plus",
+    "Description": "This plan includes basic features.",
+    "Duration": "3 months",
+    "Price": 2700
+  },
+  {
+    "PlanName": "Premium",
+    "Description": "This plan includes advanced features.",
+    "Duration": "6 months",
+    "Price": 3600
+  },
+  {
+    "PlanName": "Professional",
+    "Description": "This plan includes premium features.",
+    "Duration": "9 months",
+    "Price": 5400
+  }
+  ]
+  

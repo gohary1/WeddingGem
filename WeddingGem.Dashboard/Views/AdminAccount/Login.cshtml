@@ -1,0 +1,39 @@
+﻿@model LoginModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="~/css/loginStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="h22"><h2 class="typing-animation">WEDDING GEM Dashboard</h2></div> @* here *@
+        <div class="wrapper">
+            <div class="title">
+                <p>Login Form</p>
+            </div>
+            <form method="post" asp-action="Login">
+                <div class="field">
+                    <input type="text" asp-for="Email">
+                    <label asp-for ="Email">Email Address</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="field">
+                    <input type="password" asp-for="Password">
+                    <label asp-for="Password" >Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="field">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </header>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

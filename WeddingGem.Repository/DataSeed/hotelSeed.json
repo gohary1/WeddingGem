@@ -1,0 +1,162 @@
+[
+  {
+      "Name": "Grand Hotel",
+      "Price": 7000,
+      "Description": "Luxurious hotel with spacious rooms and premium amenities.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Hotels/image(1).jpg",
+      "Location": "City Center"
+  },
+  {
+      "Name": "Seaside Resort",
+      "Price": 6000,
+      "Description": "Beachfront resort with stunning ocean views and relaxing atmosphere.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Hotels/image(2).jpg",
+      "Location": "Coastal"
+  },
+  {
+      "Name": "Mountain Lodge",
+      "Price": 8000,
+      "Description": "Cozy lodge nestled in the mountains, perfect for nature enthusiasts.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(3).jpg",
+      "Location": "Mountain"
+  },
+  {
+      "Name": "Riverside Inn",
+      "Price": 5500,
+      "Description": "Quaint inn overlooking the river, ideal for a peaceful getaway.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Hotels/image(4).jpg",
+      "Location": "Riverbank"
+  },
+  {
+      "Name": "Urban Boutique Hotel",
+      "Price": 7500,
+      "Description": "Chic boutique hotel in the heart of the city, with trendy decor and stylish ambiance.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Hotels/image(5).jpg",
+      "Location": "Downtown"
+  },
+  {
+      "Name": "Lakefront Lodge",
+      "Price": 9500,
+      "Description": "Serene lodge overlooking the lake, offering a tranquil retreat in nature.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(6).jpg",
+      "Location": "Lakeside"
+  },
+  {
+      "Name": "Historic Inn",
+      "Price": 5500,
+      "Description": "Charming inn housed in a historic building, brimming with character and charm.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Hotels/image(7).jpg",
+      "Location": "City Suburbs"
+  },
+  {
+      "Name": "Countryside Retreat",
+      "Price": 7500,
+      "Description": "Tranquil retreat in the countryside, surrounded by scenic beauty and peaceful ambiance.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Hotels/image(8).jpg",
+      "Location": "Countryside"
+  },
+  {
+      "Name": "Cozy Cabin Resort",
+      "Price": 8000,
+      "Description": "Rustic cabin resort nestled in the woods, offering a cozy and intimate escape.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(9).jpg",
+      "Location": "Forest"
+  },
+  {
+      "Name": "Luxury Spa Resort",
+      "Price": 11000,
+      "Description": "Luxurious spa resort with indulgent treatments and rejuvenating amenities.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Hotels/image(10).jpg",
+      "Location": "Resort"
+  },
+  {
+      "Name": "Rural Bed and Breakfast",
+      "Price": 5500,
+      "Description": "Quaint bed and breakfast in the countryside, offering a cozy and personalized stay.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Hotels/image(11).jpg",
+      "Location": "Rural"
+  },
+  {
+      "Name": "Secluded Beach Retreat",
+      "Price": 6000,
+      "Description": "Secluded retreat on a private beach, perfect for a romantic getaway.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Hotels/image(12).jpg",
+      "Location": "Beachfront"
+  },
+  {
+      "Name": "Alpine Chalet",
+      "Price": 9500,
+      "Description": "Charming chalet nestled in the Alps, offering breathtaking mountain views.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(13).jpg",
+      "Location": "Alpine"
+  },
+  {
+      "Name": "Tropical Resort",
+      "Price": 10500,
+      "Description": "Exotic resort set amidst lush tropical gardens and pristine beaches.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Hotels/image(14).jpg",
+      "Location": "Tropical"
+  },
+  {
+      "Name": "Rustic Farmhouse Inn",
+      "Price": 7000,
+      "Description": "Quaint farmhouse inn surrounded by rolling hills and picturesque countryside.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Hotels/image(15).jpg",
+      "Location": "Farm"
+  },
+  {
+      "Name": "City Skyline Hotel",
+      "Price": 7500,
+      "Description": "Modern hotel with stunning views of the city skyline, perfect for urban explorers.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(16).jpg",
+      "Location": "Urban"
+  },
+  {
+      "Name": "Desert Oasis Resort",
+      "Price": 6000,
+      "Description": "Luxurious resort oasis in the desert, offering a tranquil escape amidst the dunes.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Hotels/image(17).jpg",
+      "Location": "Desert"
+  },
+  {
+      "Name": "Historic Castle Hotel",
+      "Price": 11500,
+      "Description": "Magnificent castle hotel steeped in history and elegance, fit for royalty.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Hotels/image(18).jpg",
+      "Location": "Castle"
+  },
+  {
+      "Name": "Ski Resort Lodge",
+      "Price": 8500,
+      "Description": "Cozy lodge nestled in the mountains, offering easy access to ski slopes.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Hotels/image(19).jpg",
+      "Location": "Mountain"
+  },
+  {
+      "Name": "Urban Boutique Hotel",
+      "Price": 7500,
+      "Description": "Chic boutique hotel in the heart of the city, with trendy decor and stylish ambiance.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Hotels/image(20).jpg",
+      "Location": "Downtown"
+  }
+]

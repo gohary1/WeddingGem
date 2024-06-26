@@ -1,0 +1,81 @@
+﻿.popUp {
+    z-index: 999999999999999;
+    background-color: #0000007d;
+}
+
+.botMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Add gap for spacing */
+}
+
+.popinner {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    max-width: 500px; /* Add max-width for large screens */
+    max-height: 400px; /* Add max-height for large screens */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow for better appearance */
+}
+
+@media (max-width: 992px) {
+    .popinner {
+        width: 60%;
+        height: 60%;
+    }
+
+    .botMain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px; /* Adjust gap for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .popinner {
+        width: 70%;
+        height: auto;
+        padding: 15px;
+    }
+
+        .popinner h4 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+    .botMain {
+        gap: 20px; /* Adjust gap for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .popinner {
+        width: 60%;
+        height: auto;
+        padding: 10px;
+    }
+
+        .popinner h4 {
+            font-size: 1.25rem;
+            text-align: center;
+        }
+
+    .botMain {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px; /* Adjust gap for the smallest screens */
+    }
+
+        .botMain .btn {
+            margin: 5px 0;
+            width: 100%;
+        }
+}
+
+.popUp h4 {
+    font-weight: bold;
+}

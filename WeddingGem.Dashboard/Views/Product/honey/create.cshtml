@@ -1,0 +1,48 @@
+﻿@model HoneyMoonUpdate
+@{
+    ViewData["Title"] = "create";
+}
+    <div class="container p-3">
+    <h3 class="text-center">Create A new Honey Moon</h3>
+    <div class="mt-5">
+        <form method="post" asp-action="createHoney" enctype="multipart/form-data">
+            <label asp-for="Name">Entertainment Name:</label>
+            <input type="text" class="form-control my-2" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <label asp-for="Price">Price</label>
+            <input class="form-control my-2" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+            <label asp-for="Description">Description</label>
+            <input class="form-control my-2" asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+            <label asp-for="Destination">Destination</label>
+            <input class="form-control my-2" asp-for="Destination" />
+            <span asp-validation-for="Destination" class="text-danger"></span>
+
+            <label asp-for="Inclusions">Inclusions</label>
+            <input class="form-control my-2" asp-for="Inclusions" />
+            <span asp-validation-for="Inclusions" class="text-danger"></span>
+            
+            <label asp-for="StartDate">Start Date:</label>
+            <input type="date" class="form-control my-2" asp-for="StartDate" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+
+            <label asp-for="EndDate">End Date</label>
+            <input type="date" class="form-control my-2" asp-for="EndDate" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+
+            <label asp-for="ImgUrl">Select Best Image</label>
+            <input asp-for="ImgUrl" type="file" class="form-control" />
+            <span asp-validation-for="ImgUrl" class="text-danger"></span>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="submit" class="btn btn-success px-5 mx-2">Create</button>
+                <a asp-action="HoneyIndex" class="btn btn-secondary px-2 mx-2">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+

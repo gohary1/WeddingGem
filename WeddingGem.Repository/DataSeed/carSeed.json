@@ -1,0 +1,202 @@
+[
+  {
+      "Name": "Toyota Camry",
+      "Price": 1500,
+      "Description": "Reliable midsize sedan with a comfortable interior.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Cars/image(1).jpg",
+      "Capacity": 5,
+      "Model": "Camry",
+      "Color": "Silver"
+  },
+  {
+      "Name": "Honda Civic",
+      "Price": 2000,
+      "Description": "Compact car known for its fuel efficiency and agile handling.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Cars/image(2).jpg",
+      "Capacity": 5,
+      "Model": "Civic",
+      "Color": "Black"
+  },
+  {
+      "Name": "Ford Mustang",
+      "Price": 2500,
+      "Description": "Iconic sports car with powerful performance and distinctive styling.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Cars/image(3).jpg",
+      "Capacity": 4,
+      "Model": "Mustang",
+      "Color": "Red"
+  },
+  {
+      "Name": "Chevrolet Silverado",
+      "Price": 3000,
+      "Description": "Rugged full-size pickup truck known for its towing capability.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Cars/image(4).jpg",
+      "Capacity": 5,
+      "Model": "Silverado",
+      "Color": "White"
+  },
+  {
+      "Name": "Tesla Model S",
+      "Price": 1500,
+      "Description": "Luxury electric sedan with impressive acceleration and range.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Cars/image(5).jpg",
+      "Capacity": 5,
+      "Model": "Model S",
+      "Color": "Blue"
+  },
+  {
+      "Name": "BMW 3 Series",
+      "Price": 2000,
+      "Description": "Premium compact sedan with a refined interior and dynamic performance.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Cars/image(6).jpg",
+      "Capacity": 5,
+      "Model": "3 Series",
+      "Color": "Gray"
+  },
+  {
+      "Name": "Mercedes-Benz E-Class",
+      "Price": 2500,
+      "Description": "Luxury midsize sedan with a plush interior and advanced technology.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Cars/image(7).jpg",
+      "Capacity": 5,
+      "Model": "E-Class",
+      "Color": "Silver"
+  },
+  {
+      "Name": "Audi Q5",
+      "Price": 3000,
+      "Description": "Premium compact SUV with a stylish design and upscale features.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Cars/image(8).jpg",
+      "Capacity": 5,
+      "Model": "Q5",
+      "Color": "Black"
+  },
+  {
+      "Name": "Lexus RX",
+      "Price": 1500,
+      "Description": "Luxury midsize SUV with a smooth ride and high-quality interior.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Cars/image(9).jpg",
+      "Capacity": 5,
+      "Model": "RX",
+      "Color": "White"
+  },
+  {
+      "Name": "Subaru Outback",
+      "Price": 2000,
+      "Description": "Versatile crossover with standard all-wheel drive and spacious cabin.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Cars/image(10).jpg",
+      "Capacity": 5,
+      "Model": "Outback",
+      "Color": "Blue"
+  },
+  {
+      "Name": "Jeep Wrangler",
+      "Price": 2500,
+      "Description": "Iconic off-road SUV with rugged styling and impressive capability.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Cars/image(11).jpg",
+      "Capacity": 4,
+      "Model": "Wrangler",
+      "Color": "Green"
+  },
+  {
+      "Name": "Toyota Tacoma",
+      "Price": 3000,
+      "Description": "Compact pickup truck with strong off-road capability and reliability.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Cars/image(12).jpg",
+      "Capacity": 4,
+      "Model": "Tacoma",
+      "Color": "Silver"
+  },
+  {
+      "Name": "Ford F-150",
+      "Price": 1500,
+      "Description": "Best-selling full-size pickup truck with powerful engines and spacious interior.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Cars/image(13).jpg",
+      "Capacity": 5,
+      "Model": "F-150",
+      "Color": "Red"
+  },
+  {
+      "Name": "Chevrolet Corvette",
+      "Price": 2000,
+      "Description": "Legendary sports car with exhilarating performance and sleek design.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Cars/image(14).jpg",
+      "Capacity": 2,
+      "Model": "Corvette",
+      "Color": "Yellow"
+  },
+  {
+      "Name": "Hyundai Sonata",
+      "Price": 2500,
+      "Description": "Affordable midsize sedan with a spacious interior and user-friendly features.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Cars/image(15).jpg",
+      "Capacity": 5,
+      "Model": "Sonata",
+      "Color": "White"
+  },
+  {
+      "Name": "Kia Sportage",
+      "Price": 3000,
+      "Description": "Compact SUV with a comfortable ride and generous cargo space.",
+      "Ratings": 4.5,
+      "ImgUrl": "images/Cars/image(16).jpg",
+      "Capacity": 5,
+      "Model": "Sportage",
+      "Color": "Black"
+  },
+  {
+      "Name": "Nissan Rogue",
+      "Price": 1500,
+      "Description": "Popular compact SUV with a fuel-efficient engine and upscale interior.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Cars/image(17).jpg",
+      "Capacity": 5,
+      "Model": "Rogue",
+      "Color": "Gray"
+  },
+  {
+      "Name": "Mazda CX-5",
+      "Price": 2000,
+      "Description": "Stylish compact SUV with agile handling and premium interior.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Cars/image(18).jpg",
+      "Capacity": 5,
+      "Model": "CX-5",
+      "Color": "Blue"
+  },
+  {
+      "Name": "Volkswagen Golf",
+      "Price": 2500,
+      "Description": "Fun-to-drive compact car with a spacious cabin and advanced technology.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Cars/image(19).jpg",
+      "Capacity": 5,
+      "Model": "Golf",
+      "Color": "Silver"
+  },
+  {
+      "Name": "Volvo XC90",
+      "Price": 3000,
+      "Description": "Luxury midsize SUV with a comfortable ride and high-end safety features.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Cars/image(20).jpg",
+      "Capacity": 7,
+      "Model": "XC90",
+      "Color": "White"
+  }
+]

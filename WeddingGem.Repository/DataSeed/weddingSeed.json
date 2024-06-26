@@ -1,0 +1,222 @@
+[
+  {
+    "Name": "Royal Gardens",
+    "Price": 5000,
+    "Description": "Beautiful garden venue for outdoor weddings.",
+    "Ratings": 4.8,
+    "ImgUrl": "images/WeddingHalls/image(1).jpg",
+    "Capacity": 200,
+    "Location": "City Center",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-01"
+  },
+  {
+    "Name": "Grand Ballroom",
+    "Price": 8000,
+    "Description": "Luxurious ballroom for grand weddings.",
+    "Ratings": 4.9,
+    "ImgUrl": "images/WeddingHalls/image(2).jpg",
+    "Capacity": 500,
+    "Location": "Downtown",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-07-15"
+  },
+  {
+    "Name": "Ocean View Terrace",
+    "Price": 6000,
+    "Description": "Scenic terrace overlooking the ocean for romantic weddings.",
+    "Ratings": 4.7,
+    "ImgUrl": "images/WeddingHalls/image(3).jpg",
+    "Capacity": 150,
+    "Location": "Beachfront",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-15"
+  },
+  {
+    "Name": "Rustic Barn Venue",
+    "Price": 4000,
+    "Description": "Charming barn venue for rustic-themed weddings.",
+    "Ratings": 4.5,
+    "ImgUrl": "images/WeddingHalls/image(4).jpg",
+    "Capacity": 100,
+    "Location": "Countryside",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-08-01"
+  },
+  {
+    "Name": "Sunset Beach Resort",
+    "Price": 7000,
+    "Description": "Resort venue with stunning sunset views for beach weddings.",
+    "Ratings": 4.8,
+    "ImgUrl": "images/WeddingHalls/image(5).jpg",
+    "Capacity": 300,
+    "Location": "Coastal",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-01"
+  },
+  {
+    "Name": "Glamorous Rooftop",
+    "Price": 5500,
+    "Description": "Chic rooftop venue for glamorous weddings with city views.",
+    "Ratings": 4.6,
+    "ImgUrl": "images/WeddingHalls/image(6).jpg",
+    "Capacity": 200,
+    "Location": "City Center",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-30"
+  },
+  {
+    "Name": "Lakeside Pavilion",
+    "Price": 6500,
+    "Description": "Pavilion venue with tranquil lake views for serene weddings.",
+    "Ratings": 4.7,
+    "ImgUrl": "images/WeddingHalls/image(7).jpg",
+    "Capacity": 250,
+    "Location": "Lakeside",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-10"
+  },
+  {
+    "Name": "Elegant Manor House",
+    "Price": 7500,
+    "Description": "Elegant manor house venue for sophisticated weddings.",
+    "Ratings": 4.9,
+    "ImgUrl": "images/WeddingHalls/image(8).jpg",
+    "Capacity": 300,
+    "Location": "Countryside",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-08-15"
+  },
+  {
+    "Name": "Mountaintop Retreat",
+    "Price": 9000,
+    "Description": "Secluded mountaintop venue for intimate weddings with panoramic views.",
+    "Ratings": 4.8,
+    "ImgUrl": "images/WeddingHalls/image(9).jpg",
+    "Capacity": 100,
+    "Location": "Mountain",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-20"
+  },
+  {
+    "Name": "Historic Mansion",
+    "Price": 8500,
+    "Description": "Historic mansion venue with grand architecture for timeless weddings.",
+    "Ratings": 4.9,
+    "ImgUrl": "images/WeddingHalls/image(10).jpg",
+    "Capacity": 400,
+    "Location": "City Suburbs",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-08-10"
+  },
+  {
+    "Name": "Vineyard Estate",
+    "Price": 7000,
+    "Description": "Picturesque vineyard estate venue for romantic weddings among the vines.",
+    "Ratings": 4.7,
+    "ImgUrl": "images/WeddingHalls/image(11).jpg",
+    "Capacity": 200,
+    "Location": "Wine Country",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-05"
+  },
+  {
+    "Name": "Modern Loft Space",
+    "Price": 6000,
+    "Description": "Sleek loft space venue for modern weddings with industrial chic vibes.",
+    "Ratings": 4.6,
+    "ImgUrl": "images/WeddingHalls/image(12).jpg",
+    "Capacity": 150,
+    "Location": "Urban",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-06-25"
+  },
+  {
+    "Name": "Enchanted Garden Pavilion",
+    "Price": 20000,
+    "Description": "Enchanted garden pavilion venue for fairy tale weddings.",
+    "Ratings": 4.8,
+    "ImgUrl": "images/WeddingHalls/image(13).jpg",
+    "Capacity": 200,
+    "Location": "Garden",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-20"
+  },
+  {
+    "Name": "Waterfront Marina",
+    "Price": 25000,
+    "Description": "Waterfront marina venue for nautical-themed weddings.",
+    "Ratings": 4.7,
+    "ImgUrl": "images/WeddingHalls/image(14).jpg",
+    "Capacity": 250,
+    "Location": "Marina",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-07"
+  },
+  {
+    "Name": "Historic Church Hall",
+    "Price": 15000,
+    "Description": "Historic church hall venue for traditional weddings with vintage charm.",
+    "Ratings": 4.6,
+    "ImgUrl": "images/WeddingHalls/image(15).jpg",
+    "Capacity": 150,
+    "Location": "Downtown",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-06-28"
+  },
+  {
+    "Name": "Riverside Retreat",
+    "Price": 33000,
+    "Description": "Riverside retreat venue for tranquil weddings by the river.",
+    "Ratings": 4.8,
+    "ImgUrl": "images/WeddingHalls/image(16).jpg",
+    "Capacity": 300,
+    "Location": "Riverbank",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-07-12"
+  },
+  {
+    "Name": "Elegant Country Club",
+    "Price": 30000,
+    "Description": "Elegant country club venue for upscale weddings with golf course views.",
+    "Ratings": 4.9,
+    "ImgUrl": "images/WeddingHalls/image(17).jpg",
+    "Capacity": 350,
+    "Location": "Country Club",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-07-25"
+  },
+  {
+    "Name": "Rooftop Garden Terrace",
+    "Price": 40000,
+    "Description": "Rooftop garden terrace venue for urban weddings with skyline views.",
+    "Ratings": 4.7,
+    "ImgUrl": "images/WeddingHalls/image(18).jpg",
+    "Capacity": 200,
+    "Location": "City Center",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-22"
+  },
+  {
+    "Name": "Majestic Castle Venue",
+    "Price": 90000,
+    "Description": "Majestic castle venue for fairy tale weddings fit for royalty.",
+    "Ratings": 5.0,
+    "ImgUrl": "images/WeddingHalls/image(19).jpg",
+    "Capacity": 500,
+    "Location": "Castle",
+    "HallType": "Indoor",
+    "AvlDateFrom": "2024-08-05"
+  },
+  {
+    "Name": "Tranquil Forest Clearing",
+    "Price": 55000,
+    "Description": "Tranquil forest clearing venue for intimate weddings in nature.",
+    "Ratings": 4.6,
+    "ImgUrl": "images/WeddingHalls/image(20).jpg",
+    "Capacity": 100,
+    "Location": "Forest",
+    "HallType": "Outdoor",
+    "AvlDateFrom": "2024-06-18"
+  }
+]

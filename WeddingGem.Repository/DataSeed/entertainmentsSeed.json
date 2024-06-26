@@ -1,0 +1,162 @@
+[
+  {
+      "Name": "Live Jazz Band",
+      "Price": 10000,
+      "Description": "Entertain your guests with smooth jazz melodies performed live by a talented band.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(1).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "DJ Party Set",
+      "Price": 8000,
+      "Description": "Get the party started with a high-energy DJ spinning your favorite tracks all night long.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Entertainment/image(2).jpg",
+      "TypeBand": "DJ"
+  },
+  {
+      "Name": "Acoustic Duo",
+      "Price": 12000,
+      "Description": "Create a relaxed and intimate atmosphere with live acoustic music performed by a talented duo.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Entertainment/image(3).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Latin Dance Performance",
+      "Price": 14000,
+      "Description": "Add excitement to your event with a vibrant Latin dance performance that will get everyone on their feet.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Entertainment/image(4).jpg",
+      "TypeBand": "Dancers"
+  },
+  {
+      "Name": "Rock Cover Band",
+      "Price": 11000,
+      "Description": "Rock the night away with a dynamic cover band playing all your favorite rock hits.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(5).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Classical String Quartet",
+      "Price": 13000,
+      "Description": "Add elegance and sophistication to your event with beautiful classical music performed by a string quartet.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Entertainment/image(6).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Hip Hop Dance Crew",
+      "Price": 9000,
+      "Description": "Bring the energy of the streets to your event with an electrifying hip hop dance performance.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Entertainment/image(7).jpg",
+      "TypeBand": "Dancers"
+  },
+  {
+      "Name": "Salsa Band",
+      "Price": 5000,
+      "Description": "Spice up your event with the infectious rhythms of salsa performed live by a talented band.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(8).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Electro DJ Set",
+      "Price": 7500,
+      "Description": "Keep the party going with an electrifying DJ set featuring the latest electronic dance music.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Entertainment/image(9).jpg",
+      "TypeBand": "DJ"
+  },
+  {
+      "Name": "Bollywood Dance Troupe",
+      "Price": 14500,
+      "Description": "Bring the glitz and glamour of Bollywood to your event with a colorful and energetic dance performance.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Entertainment/image(10).jpg",
+      "TypeBand": "Dancers"
+  },
+  {
+      "Name": "Folk Music Ensemble",
+      "Price": 9200,
+      "Description": "Celebrate tradition and culture with a lively folk music ensemble performing traditional tunes.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(11).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "R&B Vocalist",
+      "Price": 8100,
+      "Description": "Serenade your guests with soulful R&B melodies sung by a talented vocalist.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Entertainment/image(12).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Breakdance Crew",
+      "Price": 11000,
+      "Description": "Wow your guests with jaw-dropping stunts and moves performed by a skilled breakdance crew.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(13).jpg",
+      "TypeBand": "Dancers"
+  },
+  {
+      "Name": "Country Music Band",
+      "Price": 12000,
+      "Description": "Get ready to kick up your heels with a lively country music band playing all your favorite tunes.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Entertainment/image(14).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Reggae Party DJ",
+      "Price": 7800,
+      "Description": "Transport your guests to the sunny shores of Jamaica with a reggae-infused DJ set.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Entertainment/image(15).jpg",
+      "TypeBand": "DJ"
+  },
+  {
+      "Name": "Irish Folk Band",
+      "Price": 5000,
+      "Description": "Raise a glass and tap your feet to the lively tunes of an Irish folk band.",
+      "Ratings": 4.7,
+      "ImgUrl": "images/Entertainment/image(16).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Tango Dance Duo",
+      "Price": 8200,
+      "Description": "Ignite passion and romance with a sultry tango dance performance by a captivating duo.",
+      "Ratings": 4.9,
+      "ImgUrl": "images/Entertainment/image(17).jpg",
+      "TypeBand": "Dancers"
+  },
+  {
+      "Name": "Gospel Choir",
+      "Price": 8500,
+      "Description": "Lift spirits and inspire with the uplifting harmonies of a soul-stirring gospel choir.",
+      "Ratings": 4.8,
+      "ImgUrl": "images/Entertainment/image(18).jpg",
+      "TypeBand": "Live Band"
+  },
+  {
+      "Name": "Techno DJ Set",
+      "Price": 7300,
+      "Description": "Dance the night away to pulsating beats and infectious rhythms with a techno DJ set.",
+      "Ratings": 4.6,
+      "ImgUrl": "images/Entertainment/image(19).jpg",
+      "TypeBand": "DJ"
+  },
+  {
+      "Name": "Ballet Performance",
+      "Price": 15000,
+      "Description": "Experience grace and elegance with a mesmerizing ballet performance by a talented troupe.",
+      "Ratings": 5.0,
+      "ImgUrl": "images/Entertainment/image(20).jpg",
+      "TypeBand": "Dancers"
+  }
+]
