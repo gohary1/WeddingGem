@@ -1,6 +1,6 @@
 # WeddingGem
 
-![WeddingGem](https://drive.google.com/uc?id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB)
+![WeddingGem](https://drive.google.com/uc?id=1iohmLkAWv0jGSv2dVsf3GlzELfTwT6Lw)
 
 WeddingGem is an e-commerce website specializing in all wedding-related items such as cars, wedding halls, hotels, and more. The project is divided into two parts: a RESTful API for users and an MVC dashboard for admins and vendors.
 
@@ -32,28 +32,29 @@ The MVC dashboard is designed for admins and vendors to manage products and bids
 
 ## Images
 
-![Image1](https://drive.google.com/uc?id=1Bi9rrITB3In-LiUfPSP9gw5b2zYTVtuR)
-![Image2](https://drive.google.com/uc?id=1VAj-lHeB4EnNYO-mH7CkU1Ur1cCzLMvY)
-![Image3](https://drive.google.com/uc?id=120WHaHpWIPnG8erR-LrSk92KKNjCQMR4)
-![Image4](https://drive.google.com/uc?id=1426bLV4k1EqVFyTAB6KhYsEGowRcdLPG)
-![Image5](https://drive.google.com/uc?id=1JJfI5j5rCLeR94KwMI2mUjskiTn0ohya)
-![Image6](https://drive.google.com/uc?id=1GckfMzF84YLNzcAPnlMI8mqbdCBB8nhb)
-![Image7](https://drive.google.com/uc?id=1rO1ro4xZ1vRVs9IVVV2gDk7XgooSF-2f)
-![Image8](https://drive.google.com/uc?id=1IITrCfgbVkhY7dJPOitR-HQlYausLevc)
-![Image9](https://drive.google.com/uc?id=1Cfp_RrEfbU1gY3BD61IKV2SjarL9ypSa)
-![Image10](https://drive.google.com/uc?id=1w-rQyi0bJawG9KHAHz6j1L1Pyld1s7gs)
-![Image11](https://drive.google.com/uc?id=1hFfK6r4kXah1P4oty5vMUBs85HA9MaSH)
-![Image12](https://drive.google.com/uc?id=1iohmLkAWv0jGSv2dVsf3GlzELfTwT6Lw)
-![Image13](https://drive.google.com/uc?id=1FaQcWKWfXiPjKScaQgu7N_uuWrvz-d7n)
-![Image14](https://drive.google.com/uc?id=1lLhxUzmRkG3JW9B3zaVUvlTpUyA6z6TV)
-![Image15](https://drive.google.com/uc?id=1X7s_4nvJn2dM8qIBg3x4dGR17ckDDBOS)
-![Image16](https://drive.google.com/uc?id=1yFL9C9dg0rGuCF4lu1aKbLDllxHScYAI)
-![Image17](https://drive.google.com/uc?id=1Pb3qewliK9mPynCPqmpfIFX6om-fcQp-)
-![Image18](https://drive.google.com/uc?id=14FIuQXmfhSB_nUEj9eoMVpAooks3E37P)
-![Image19](https://drive.google.com/uc?id=1kwiSsVjZYIpAjf5RQ-ixHaLRiQA05C2s)
-![Image20](https://drive.google.com/uc?id=1Es8CbvQX_Zber5ihAUPMeDotl_5NzHev)
-![Image21](https://drive.google.com/uc?id=12nDrMKPamBvktKQ60gniqm9Y1fX4SSKi)
-![Image22](https://drive.google.com/uc?id=1qdiQYup-yNAQS8ECxhVp6IECzFLB3Yrx)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://drive.google.com/uc?id=1Bi9rrITB3In-LiUfPSP9gw5b2zYTVtuR" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1VAj-lHeB4EnNYO-mH7CkU1Ur1cCzLMvY" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=120WHaHpWIPnG8erR-LrSk92KKNjCQMR4" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1426bLV4k1EqVFyTAB6KhYsEGowRcdLPG" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1JJfI5j5rCLeR94KwMI2mUjskiTn0ohya" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1GckfMzF84YLNzcAPnlMI8mqbdCBB8nhb" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1rO1ro4xZ1vRVs9IVVV2gDk7XgooSF-2f" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1IITrCfgbVkhY7dJPOitR-HQlYausLevc" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1Cfp_RrEfbU1gY3BD61IKV2SjarL9ypSa" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1w-rQyi0bJawG9KHAHz6j1L1Pyld1s7gs" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1hFfK6r4kXah1P4oty5vMUBs85HA9MaSH" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1FaQcWKWfXiPjKScaQgu7N_uuWrvz-d7n" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1lLhxUzmRkG3JW9B3zaVUvlTpUyA6z6TV" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1X7s_4nvJn2dM8qIBg3x4dGR17ckDDBOS" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1yFL9C9dg0rGuCF4lu1aKbLDllxHScYAI" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1Pb3qewliK9mPynCPqmpfIFX6om-fcQp-" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=14FIuQXmfhSB_nUEj9eoMVpAooks3E37P" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1kwiSsVjZYIpAjf5RQ-ixHaLRiQA05C2s" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1Es8CbvQX_Zber5ihAUPMeDotl_5NzHev" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=12nDrMKPamBvktKQ60gniqm9Y1fX4SSKi" style="width: 400px; margin: 10px;">
+    <img src="https://drive.google.com/uc?id=1qdiQYup-yNAQS8ECxhVp6IECzFLB3Yrx" style="width: 400px; margin: 10px;">
+</div>
 
 ## Getting Started
 
