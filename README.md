@@ -8,7 +8,7 @@ WeddingGem is a comprehensive e-commerce platform specializing in wedding-relate
 ## Features
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB" alt="WeddingGem 1" style="width: 300px; height: auto;">
-  <img src="https://drive.google.com/file/d/1Bi9rrITB3In-LiUfPSP9gw5b2zYTVtuR/view?usp=drive_link" alt="WeddingGem 2" style="width: 300px; height: auto;">
+  <img src="https://drive.google.com/file/d/1Bi9rrITB3In-LiUfPSP9gw5b2zYTVtuR/view?usp=sharing" alt="WeddingGem 2" style="width: 300px; height: auto;">
   
   <img src="https://drive.google.com/uc?export=view&id=1494ftuazOhrTcl4ID09J_ML5lRIS07JB" alt="WeddingGem 3" style="width: 300px; height: auto;">
 </div>
